@@ -32,7 +32,6 @@ def update(request,id):
 
 def delete(request,id):
     employee = Employee.objects.get(id = id)
-    em
-    return render(request, "edit.html", {'employee':employee})
-
+    employee.delete()
+    return redirect('/show')
 # Create your views here.
