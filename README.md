@@ -2,6 +2,5 @@
 
 ## Video Preview Of The Project
 
-<video controls autoplay>
-  <source src="video_preview.mp4" type="video/mp4">
-</video>
+![](https://github.com/faria-karim-porna/django-empli-employee-management-system/blob/main/video-preview.gif)
+
